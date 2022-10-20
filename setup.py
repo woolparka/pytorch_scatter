@@ -105,7 +105,7 @@ def get_extensions():
     return extensions
 
 
-install_requires = []
+install_requires = ['torch']
 
 test_requires = [
     'pytest',
