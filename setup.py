@@ -12,7 +12,7 @@ from torch.utils.cpp_extension import (CUDA_HOME, BuildExtension, CppExtension,
                                        CUDAExtension)
 
 __version__ = '2.0.9'
-URL = 'https://github.com/rusty1s/pytorch_scatter'
+URL = 'https://github.com/woolparka/pytorch_scatter'
 
 WITH_CUDA = False
 if torch.cuda.is_available():
